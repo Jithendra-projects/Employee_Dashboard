@@ -58,5 +58,15 @@ The application uses **Local Storage** to persist employee data and authenticati
 - Readable layout
 - Empty states handled gracefully
 
+## Steps to Run the Project Locally
+
+###  Clone the Repository
+```bash
+- git clone https://github.com/Jithendra-projects/Employee_Dashboard.git
+- cd Employee_Dashboard
+- npm install
+- npm run start
+- The Application will run at local host , http://localhost:1234
+
 
 
