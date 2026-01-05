@@ -1,0 +1,47 @@
+
+.dashboard {
+  min-height: calc(100vh - 60px);
+  padding: 28px 36px;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 140, 200, 0.25) 0%,
+    rgba(255, 180, 120, 0.25) 40%,
+    rgba(50, 90, 200, 0.35) 100%
+  );
+}
+
+.dashboard-card,
+.employee-table,
+.summary-card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+
+.summary-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4f46e5;
+}

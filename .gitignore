@@ -1,0 +1,14 @@
+# Node modules (VERY LARGE)
+node_modules/
+
+# Parcel cache
+.parcel-cache/
+dist/
+
+
+# Environment files
+.env
+.env.local
+
+# Logs
+npm-debug.log*

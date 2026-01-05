@@ -1,0 +1,108 @@
+/* EMPLOYEE FORM WRAPPER */
+.employee-form-wrapper {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+/* EMPLOYEE FORM CARD (LOGIN-CARD INSPIRED) */
+.employee-form {
+  width: 420px;
+  padding: 26px 24px;
+  border-radius: 14px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 140, 200, 0.75) 0%,
+    rgba(255, 180, 120, 0.75) 40%,
+    rgba(50, 90, 200, 0.85) 100%
+  );
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  color: #000;
+}
+
+/* FORM TITLE */
+.employee-form h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+/* ERROR MESSAGE */
+.employee-form .error {
+  font-size: 12.5px;
+  color: #d82d5d;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* INPUTS & SELECTS (LOGIN STYLE) */
+.employee-form input,
+.employee-form select {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 8px 4px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  outline: none;
+}
+
+.employee-form label {
+  display: inline-flex;      
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 14px;
+  white-space: nowrap;        
+}
+
+.employee-form label input[type="checkbox"] {
+  margin: 0 0 0 12px;    
+  padding: 0;
+}
+
+.employee-form input[type="file"] {
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.employee-form .preview {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 12px auto;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.employee-form .actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.employee-form .actions button[type="submit"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #0f172a, #1e3a8a);
+  color: #fff;
+}
+
+
+.employee-form .actions button[type="button"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
